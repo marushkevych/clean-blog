@@ -16,29 +16,29 @@ So, in a nutshell:
 - `=` bi-directionally binds an object
 - `&` provides a way to execute an expression in the context of parent scope. It wraps a function around the expression. If expression is a function call like `increment(amount)`, we can pass arguments to the function via named parameters hash: `{amount: 22}`. Here is an example:
 
-    ```js
-    // button directive
-    module.directive('button', buttonDirective);
-    
-    function buttonDirective(){
-      return {
-        scope: {
-          action: '&'
-        },
-        template: '<button ng-click="action({amount: 22})"> Add 22 </button>'
-      };
-    }
-    ```
-    
-    ```html
-    <div button action='increment(amount)'></div>
-    ```
-    
-    ```js
-    // controller
-    function controller($scope){
-      $scope.increment = function(amount){
-        // this is called with 22 when button is clicked
-      };
-    }
-    ```
+```js
+// button directive
+module.directive('button', buttonDirective);
+
+function buttonDirective(){
+  return {
+    scope: {
+      action: '&'
+    },
+    template: '<button ng-click="action({amount: 22})"> Add 22 </button>'
+  };
+}
+```
+
+```html
+<div button action='increment(amount)'></div>
+```
+
+```js
+// controller
+function controller($scope){
+  $scope.increment = function(amount){
+    // this is called with 22 when button is clicked
+  };
+}
+```
