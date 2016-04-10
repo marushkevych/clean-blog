@@ -4,7 +4,9 @@ title:  Enable Code Completion in your javascript
 subtitle:  
 date:   2015-07-24 12:30:00
 categories: javascript angularjs typescript 
+header-img: "img/post-bg-03.jpg"
 ---
+
 
 I was never a huge fan of Microsoft, but lately I started to slowly change my mind.
 First there was TypeScript, then knockout.js, and now [Visual Studio Code](https://www.visualstudio.com/en-us/products/code-vs.aspx).

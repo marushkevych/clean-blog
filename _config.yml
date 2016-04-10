@@ -1,17 +1,22 @@
 # Site settings
-title: undefined is not a function
+title: undefined is not
 author: Andrey Marushkevych
 header-img: img/home-bg.jpg
 email: marushkevych@gmail.com
-copyright_name: Your/Project/Corporate Name
+copyright_name: Andrey Marushkevych
 description: A personal site and blog of Andrey Marushkevych. Notes on sofware development and technology, java, javascript, nodejs, angularjs.
-baseurl: "/clean-blog"
+baseurl: ""
+
+# this is needed to fix stupid bug - jekyll generated post url from post metadata using local timezone
+# so if you set you might get link generated day later or earlier!
+timezone: UTC
 
 url: "http://marushkevych.com"
-twitter_username: marushkevych
+#twitter_username: marushkevych
 github_username:  marushkevych
-facebook_username:  IronSummitMedia
 email_username:  marushkevych@gmail.com
+linkedin_username: andrey-marushkevych-9601007
+stack_exchange_username: 454839
 
 # Build settings
 markdown: kramdown
@@ -64,9 +69,9 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
+  archive_path: /archive
+  categories_path : /categories
+  tags_path : /tags
   atom_path : /atom.xml
   rss_path : /rss.xml
 

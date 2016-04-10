@@ -13,6 +13,7 @@ This will also allow encapsulation of advanced data handling like caching (angul
 ## Chaining Promises
 
 Note
+
 > Understanding of "Promises" is required. See [http://code.angularjs.org/1.0.8/docs/api/ng.$q](http://code.angularjs.org/1.0.8/docs/api/ng.$q)
 > Here is great explanation of 'Promise.then()' method: [https://github.com/kriskowal/q](https://github.com/kriskowal/q)
 
