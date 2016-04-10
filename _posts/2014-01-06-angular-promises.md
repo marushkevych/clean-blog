@@ -14,8 +14,8 @@ This will also allow encapsulation of advanced data handling like caching (angul
 
 Note
 
-> Understanding of "Promises" is required. See [http://code.angularjs.org/1.0.8/docs/api/ng.$q](http://code.angularjs.org/1.0.8/docs/api/ng.$q)
-> Here is great explanation of 'Promise.then()' method: [https://github.com/kriskowal/q](https://github.com/kriskowal/q)
+> Understanding of "[Promises](http://code.angularjs.org/1.0.8/docs/api/ng.$q)" is required.
+> [Here](https://github.com/kriskowal/q) is great explanation of 'Promise.then()' method.
 
 
 Angular's "Promise" API allows us to transform response data through the layers of application.

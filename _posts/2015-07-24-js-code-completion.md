@@ -56,5 +56,4 @@ declare module types {
 
 So, why do you need Babel? Babel will strip all the Flow type annotations when transpiling your code.
 
-And for linting you can use wonderful [eslint](http://eslint.org/) which will ignore Flow type annotations. See
-[http://stackoverflow.com/a/31273137/852675](http://stackoverflow.com/a/31273137/852675)
+And for linting you can use wonderful [eslint](http://eslint.org/) which will ignore Flow type annotations. See this [stackoverflow answer](http://stackoverflow.com/a/31273137/852675).

@@ -6,9 +6,9 @@ categories: REST
 ---
 Some useful links and notes on REST, security and cross-domain.
 
+[Creating a REST API using Node.js, Express, and MongoDB](http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/)
 
-- [Creating a REST API using Node.js, Express, and MongoDB](http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/)
-- [Secure Your REST API... The Right Way](http://stormpath.com/blog/secure-your-rest-api-right-way)
+[Secure Your REST API... The Right Way](http://stormpath.com/blog/secure-your-rest-api-right-way)
 
 #### Idempotence
 
