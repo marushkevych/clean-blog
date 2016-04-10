@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: marushkevych@gmail.com
 copyright_name: Andrey Marushkevych
 description: A personal site and blog of Andrey Marushkevych. Notes on sofware development and technology, java, javascript, nodejs, angularjs.
-baseurl: ""
+baseurl: "/clean-blog"
 
 # this is needed to fix stupid bug - jekyll generated post url from post metadata using local timezone
 # so if you set you might get link generated day later or earlier!
